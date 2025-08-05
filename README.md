@@ -63,7 +63,7 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ---
 
 ### 5. Ping Test Between Devices
-> Ping PC0 from any PC using code "ping 192.168.1.2"
+>PC2 sends a ping to PC0’s IP (192.168.1.2) and receives successful replies, confirming end-to-end network connectivity.
 
 ![Ping results](ss5.png)
 
