@@ -79,13 +79,14 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 
 ---
 
-## 📂 Files Included
+## 📁 Files Included
 
-| File | Description |
-|------|-------------|
-| [`Building Client Server Network.pkt`](./Building%20Client%20Server%20Network.pkt) | Cisco Packet Tracer file |
-| [`ss1.png`](./ss1.png) → [`ss5.png`](./ss5.png) | Screenshots of topology, config, testing |
-| [`README.md`](./README.md) | Documentation (this file) |
+| File                              | Description                                 |
+|-----------------------------------|---------------------------------------------|
+| Peer to Peer Connection.pkt       | Cisco Packet Tracer file for Lab 1          |
+| ss1.png → ss5.png                 | Screenshots of topology, config, and testing |
+| README.md                         | Documentation (this file)                   |
+
 
 
 ---
@@ -97,3 +98,4 @@ UT Dallas – Junior, Information Technology Systems
 🔐 Cybersecurity & Networking Enthusiast  
 📫 tosha.alston@gmail.com  
 🌐 [GitHub Profile](https://github.com/AnthonyAAlston)
+
