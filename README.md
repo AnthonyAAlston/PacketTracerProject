@@ -23,4 +23,4 @@
 
 ## 📫 Get in Touch
 - Email: tosha.alston@gmail.com
-- LinkedIn: (linkedin.com/in/anthonyaalston/)
+- [LinkedIn](linkedin.com/in/anthonyaalston/):
