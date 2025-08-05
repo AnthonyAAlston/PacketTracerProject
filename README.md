@@ -47,7 +47,16 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ---
 
 ### 4. Static IP Configuration
-> Manual IP address assignment on PC0
+> Each PC is manually assigned a static IP address within the same subnet (`192.168.1.0/24`) using the same subnet mask and default gateway.
+
+| PC  | IP Address     | Subnet Mask     | Default Gateway |
+|-----|----------------|------------------|------------------|
+| PC0 | 192.168.1.2    | 255.255.255.0    | 192.168.1.1      |
+| PC1 | 192.168.1.3    | 255.255.255.0    | 192.168.1.1      |
+| PC2 | 192.168.1.4    | 255.255.255.0    | 192.168.1.1      |
+| PC3 | 192.168.1.5    | 255.255.255.0    | 192.168.1.1      |
+
+> Each PC increases the last octet of the IP by one, starting from `.2`, ensuring that all addresses are within the same subnet and avoid conflicts.
 
 ![IP configuration](ss4.png)
 
