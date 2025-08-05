@@ -16,7 +16,7 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ## 🖼️ Screenshots
 
 ### 1. Initial Device Layout
-> Start the pr0ject with 1 switch and 4 PCs
+> Start the project with 1 switch and 4 PCs
 
 ![Device layout](ss1.png)
 
