@@ -16,21 +16,31 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ## 🖼️ Screenshots
 
 ### 1. Initial Device Layout
-> PCs and switch placed in the logical workspace
+> Start the prject with 1 switch and 4 PCs
 
 ![Device layout](ss1.png)
 
 ---
 
 ### 2. Connecting the First Device
-> PC0 connected to FastEthernet0/1 on Switch0
+> PC0 is connected to FastEthernet0/1 on the switch using a straight-through cable.
+
 
 ![First cable connection](ss2.png)
 
 ---
 
 ### 3. Completed Network Topology
-> All four PCs connected to the switch
+> All PCs are connected to the switch via individual FastEthernet ports:
+
+| PC  | Port on Switch     |
+|-----|--------------------|
+| PC0 | FastEthernet0/1    |
+| PC1 | FastEthernet0/2    |
+| PC2 | FastEthernet0/3    |
+| PC3 | FastEthernet0/4    |
+
+> This design ensures each device has a dedicated bandwidth path to the switch, supporting efficient local communication.
 
 ![Full topology cabled](SS3.png)
 
@@ -44,7 +54,7 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ---
 
 ### 5. Ping Test Between Devices
-> PC2 pings PC0 successfully
+> Ping PC0 from any PC using code "ping 192.168.1.2"
 
 ![Ping results](ss5.png)
 
