@@ -67,16 +67,6 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 
 ![Ping results](ss5.png)
 
----
-
-## 📄 IP Address Table
-
-| Device | IP Address     | Subnet Mask     | Default Gateway |
-|--------|----------------|------------------|------------------|
-| PC0    | 192.168.1.2    | 255.255.255.0    | 192.168.1.1      |
-| PC1    | 192.168.1.3    | 255.255.255.0    | 192.168.1.1      |
-| PC2    | 192.168.1.4    | 255.255.255.0    | 192.168.1.1      |
-| PC3    | 192.168.1.5    | 255.255.255.0    | 192.168.1.1      |
 
 ---
 
