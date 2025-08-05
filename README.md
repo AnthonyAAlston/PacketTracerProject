@@ -1,83 +1,89 @@
-# 🖧 Cisco Packet Tracer – Peer-to-Peer & Client-Server Networks
+# 🖧 Peer-to-Peer Network Lab – Cisco Packet Tracer
 
-This project demonstrates two network topologies using Cisco Packet Tracer:
-1. **Peer-to-Peer Network** with statically assigned IPs
-2. **Client-Server Network** with DHCP server configuration
-
-These labs were created as part of a hands-on learning activity to reinforce networking concepts such as IP addressing, subnetting, switching, and connectivity testing using ICMP (ping).
+This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tracer. The goal of this lab was to manually configure IP addresses, cable the network, and verify end-to-end connectivity using ICMP (ping).
 
 ---
 
-## 📁 Topologies Covered
+## 🧰 Lab Overview
 
-### 1️⃣ Peer-to-Peer Network
-
-- Devices: 1x Switch, 4x PCs
-- Connections: Copper straight-through cables
-- IP Assignment: Static  
-- Verified via: `ping` across all PCs  
-- Network range: `192.168.1.x/24`
-
-### 2️⃣ Client-Server Network
-
-- Devices: 1x Switch, 1x Server, 2x PCs  
-- Connections: Copper straight-through  
-- IP Assignment: DHCP via Server  
-- Server IP: `192.168.1.2`  
-- Gateway: `192.168.1.1`
-
----
-
-## 🧠 Key Concepts Demonstrated
-
-- Static IP configuration
-- DHCP server setup in Packet Tracer
-- Cable selection and physical topology building
-- Testing connectivity using the ping command
-- Understanding client-server vs. peer-to-peer models
+- Devices: 4x PCs, 1x Switch
+- Cables: Copper Straight-Through
+- IP Assignment: Static (manually set on each PC)
+- Verification: Ping test using Command Prompt
 
 ---
 
 ## 🖼️ Screenshots
 
-> *(Add your Packet Tracer screenshots here once ready)*  
-> Example:
-> ![Peer-to-Peer Topology](screenshots/peer-to-peer.png)  
-> ![Client-Server Topology](screenshots/client-server.png)
+### 1. Initial Device Layout
+> PCs and switch placed in the logical workspace
+
+![Device layout](ss1.png)
 
 ---
 
-## 🚀 How to Run
+### 2. Connecting the First Device
+> PC0 connected to FastEthernet0/1 on Switch0
 
-1. Download [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
-2. Open the `.pkt` file included in this repo
-3. Review topology layouts
-4. Open terminal on each PC and run `ping` to test connections
+![First cable connection](ss2.png)
 
 ---
 
-## 📌 Files Included
+### 3. Completed Network Topology
+> All four PCs connected to the switch
+
+![Full topology cabled](SS3.png)
+
+---
+
+### 4. Static IP Configuration
+> Manual IP address assignment on PC0
+
+![IP configuration](ss4.png)
+
+---
+
+### 5. Ping Test Between Devices
+> PC2 pings PC0 successfully
+
+![Ping results](ss5.png)
+
+---
+
+## 📄 IP Address Table
+
+| Device | IP Address     | Subnet Mask     | Default Gateway |
+|--------|----------------|------------------|------------------|
+| PC0    | 192.168.1.2    | 255.255.255.0    | 192.168.1.1      |
+| PC1    | 192.168.1.3    | 255.255.255.0    | 192.168.1.1      |
+| PC2    | 192.168.1.4    | 255.255.255.0    | 192.168.1.1      |
+| PC3    | 192.168.1.5    | 255.255.255.0    | 192.168.1.1      |
+
+---
+
+## 💡 Skills Practiced
+
+- Static IP addressing
+- Cable selection and port mapping
+- Command-line ping verification
+- Network topology planning and configuration
+
+---
+
+## 📂 Files Included
 
 | File                            | Description                                  |
-|---------------------------------|----------------------------------------------|
-| `Building Client Server Network.pkt` | Cisco Packet Tracer project file               |
-| `README.md`                     | Project overview and documentation           |
-| *(Optional)* `/screenshots` folder | Screenshots of completed lab (add soon)       |
+|--------------------------------|----------------------------------------------|
+| `Building Client Server Network.pkt` | Cisco Packet Tracer file                   |
+| `ss1.png` → `ss5.png`          | Screenshots of topology, config, testing     |
+| `README.md`                    | Documentation (this file)                    |
 
 ---
 
 ## 👨‍💻 Author
 
 **Anthony Alston**  
-- Junior, UT Dallas – Information Technology Systems  
-- Exploring Cybersecurity, Networking, & Machine Learning  
-- College soccer player 🧠⚽  
-- GitHub: [@AnthonyAAlston](https://github.com/AnthonyAAlston)  
-- Email: tosha.alston@gmail.com
-
----
-
-## 📚 Acknowledgment
-
-Assignment adapted from *Network+ Learning Activity #4 – Packet Tracer Peer-to-Peer and Client Server Networks*
-
+UT Dallas – Junior, Information Technology Systems  
+🔐 Cybersecurity & Networking Enthusiast  
+📫 tosha.alston@gmail.com  
+🌐 [GitHub Profile](https://github.com/AnthonyAAlston)
