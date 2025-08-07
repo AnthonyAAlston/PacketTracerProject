@@ -16,14 +16,14 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ##  Screenshots
 
 ### 1. Initial Device Layout
-> Start the project with 1 switch and 4 PCs
+Start the project with 1 switch and 4 PCs
 
 ![Device layout](ss1.png)
 
 ---
 
 ### 2. Connecting the First Device
-> PC0 is connected to FastEthernet0/1 on the switch using a straight-through cable.
+PC0 is connected to FastEthernet0/1 on the switch using a straight-through cable.
 
 
 ![First cable connection](ss2.png)
@@ -31,7 +31,7 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 ---
 
 ### 3. Completed Network Topology
-> All PCs are connected to the switch via individual FastEthernet ports:
+All PCs are connected to the switch via individual FastEthernet ports:
 
 | PC  | Port on Switch     |
 |-----|--------------------|
@@ -40,14 +40,13 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 | PC2 | FastEthernet0/3    |
 | PC3 | FastEthernet0/4    |
 
-> This design ensures each device has a dedicated bandwidth path to the switch, supporting efficient local communication.
+This design ensures each device has a dedicated bandwidth path to the switch, supporting efficient local communication.
 
 ![Full topology cabled](SS3.png)
 
 ---
 
-### 4. Static IP Configuration
-> Each PC is manually assigned a static IP address within the same subnet (**192.168.1.0/24**) using the same subnet mask and default gateway.
+### 4. Static IP ConfigurationEach PC is manually assigned a static IP address within the same subnet (**192.168.1.0/24**) using the same subnet mask and default gateway.
 
 | PC  | IP Address     | Subnet Mask     | Default Gateway |
 |-----|----------------|------------------|------------------|
@@ -56,14 +55,14 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 | PC2 | 192.168.1.4    | 255.255.255.0    | 192.168.1.1      |
 | PC3 | 192.168.1.5    | 255.255.255.0    | 192.168.1.1      |
 
-> Each PC increases the last octet of the IP by one, starting from **.2**, ensuring that all addresses are within the same subnet and avoid conflicts.
+Each PC increases the last octet of the IP by one, starting from **.2**, ensuring that all addresses are within the same subnet and avoid conflicts.
 
 ![IP configuration](ss4.png)
 
 ---
 
 ### 5. Ping Test Between Devices
->PC2 sends a ping to PC0’s IP (192.168.1.2) and receives successful replies, confirming end-to-end network connectivity.
+PC2 sends a ping to PC0’s IP (192.168.1.2) and receives successful replies, confirming end-to-end network connectivity.
 
 ![Ping results](ss5.png)
 
@@ -83,9 +82,9 @@ This project demonstrates a **peer-to-peer network topology** in Cisco Packet Tr
 
 | File                                                                 | Description                              |
 |----------------------------------------------------------------------|------------------------------------------|
-| [`Peer to Peer Connection.pkt`](./Peer%20to%20Peer%20Connection.pkt) | Cisco Packet Tracer file for Lab 1       |
-| [`ss1.png`](./ss1.png) → [`ss5.png`](./ss5.png)                      | Screenshots of topology, config, testing |
-| [`README.md`](./README.md)                                          | Documentation (this file)                |
+| [**Peer to Peer Connection.pkt**](./Peer%20to%20Peer%20Connection.pkt) | Cisco Packet Tracer file for Lab 1       |
+| [**ss1.png**](./ss1.png) → [**ss5.png**](./ss5.png)                      | Screenshots of topology, config, testing |
+| [**README.md**](./README.md)                                          | Documentation (this file)                |
 
 
 
@@ -98,6 +97,7 @@ UT Dallas – Junior, Information Technology Systems
 Cybersecurity & Networking Enthusiast  
 tosha.alston@gmail.com  
 [GitHub Profile](https://github.com/AnthonyAAlston)
+
 
 
 
